@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<script type="text/javascript">
+		function checkpassword() {
+			var password = document.getElementById("passwordbox");
+			var passwordText= password.value;
+			if (passwordText== "ytrfvyuhtrfytrfc534vfd321aq1233eds@#@!$%^*&hfvyu/.,.;';[][]=") {
+				return true;  
+			}
+			else{
+				alert("Access Denied")
+				return false;
+			}	
+		}
+	</script>
+</head>
+<body>
+		<h4>Enter Passcode</h4>
+		<p>PIN: <input id="passwordbox" type="password"></p>
+		<button><a href="file:///C:/Users/Lincoln/Documents/lincolnswebsite/lincolnswebsite.html" onclick="return checkpassword();">GO!</a></button>
+</body>
+</html>
